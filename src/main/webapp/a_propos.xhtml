@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="jakarta.faces.html">
+    <h:head>
+        <title>À propos de Jakarta</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 20px;
+            }
+
+            h1 {
+                text-align: center;
+                color: #333;
+            }
+
+            .content {
+                max-width: 800px;
+                margin: 0 auto;
+                background: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            p {
+                line-height: 1.6;
+                color: #555;
+            }
+
+            .footer {
+                text-align: center;
+                margin-top: 20px;
+                color: #777;
+            }
+              body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 20px;
+            }
+
+            h1 {
+                text-align: center;
+                color: #333;
+            }
+
+            .button-container {
+                display: flex;
+                justify-content: center;
+                margin: 20px 0;
+            }
+
+            .button-container h:commandButton {
+                background-color: #007bff;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                margin: 0 10px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+
+            .button-container h:commandButton:hover {
+                background-color: #0056b3;
+            }
+
+            .footer {
+                text-align: center;
+                margin-top: 20px;
+                color: #777;
+            }
+        </style>
+    </h:head>
+    <h:body>
+        <h1>À propos de Jakarta</h1>
+        <div class="content">
+            <p>Jakarta, la capitale de l'Indonésie, est une métropole dynamique et l'une des villes les plus peuplées du monde. Située sur l'île de Java, elle est un centre économique, culturel et politique de l'Indonésie.</p>
+
+            <p>La ville est connue pour sa diversité culturelle, avec des millions d'habitants provenant de différentes ethnies et religions. Jakarta est un mélange fascinant de traditions anciennes et de modernité, offrant une variété de cuisines, de festivals et d'événements culturels.</p>
+
+            <p>En plus de son importance économique, Jakarta abrite plusieurs points d'intérêt, tels que le monument national Monas, le vieux port de Sunda Kelapa, et de nombreux musées et centres commerciaux. Sa vie nocturne dynamique et ses marchés animés attirent également de nombreux visiteurs.</p>
+
+            <p>Malgré ses défis, tels que la circulation et la pollution, Jakarta continue d'évoluer et d'attirer des personnes du monde entier. La ville est également un point de départ idéal pour explorer d'autres destinations magnifiques en Indonésie, comme Bali, Yogyakarta et les îles de Komodo.</p>
+        </div>
+        <div class="button-container">
+            <h:form>
+                <h:commandButton value="Index" action="index"/>
+            </h:form>
+            <h:form>
+                <h:commandButton value="À propos" action="a_propos"/>
+            </h:form>
+            <h:form>
+                <h:commandButton value="Lieu" action="lieu"/>
+            </h:form>
+        </div>
+        <div class="footer">
+            <p>&copy; 2025 Votre Lmr</p>
+        </div>
+    </h:body>
+</html>

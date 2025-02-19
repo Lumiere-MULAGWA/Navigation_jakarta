@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="jakarta.faces.html">
+    <h:head>
+        <title>Facelet Title</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 20px;
+            }
+
+            h1 {
+                text-align: center;
+                color: #333;
+            }
+
+            .button-container {
+                display: flex;
+                justify-content: center;
+                margin: 20px 0;
+            }
+
+            .button-container h:commandButton {
+                background-color: #007bff;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                margin: 0 10px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+
+            .button-container h:commandButton:hover {
+                background-color: #0056b3;
+            }
+
+            .footer {
+                text-align: center;
+                margin-top: 20px;
+                color: #777;
+            }
+        </style>
+    </h:head>
+    <h:body>
+        <h1>Hello from Facelets</h1>
+        <div class="button-container">
+            <h:form>
+                <h:commandButton value="Index" action="index"/>
+            </h:form>
+            <h:form>
+                <h:commandButton value="À propos" action="a_propos"/>
+            </h:form>
+            <h:form>
+                <h:commandButton value="Lieu" action="lieu"/>
+            </h:form>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2025 Votre lmr</p>
+        </div>
+    </h:body>
+</html>
